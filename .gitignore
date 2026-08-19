@@ -1,0 +1,34 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Supabase and Vercel local state
+.supabase/
+.vercel/
+
+# Dependencies, caches, and generated output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+*.log
+
+# User and financial exports/backups
+backups/
+exports/
+*.backup.json
+*.statement.csv
+*.statement.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
